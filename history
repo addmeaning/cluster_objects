@@ -1,0 +1,334 @@
+image_float = skimage.img_as_float
+image_float
+image_float = skimage.img_as_float(image)
+from sklearn.cluster import KMeans
+[KMeans(random_state=241, init='k-means++', n_clusters=n) for n in range(5,20)]
+clusters = [KMeans(random_state=241, init='k-means++', n_clusters=n) for n in range(5,20)]
+image_float_2d = image_float.reshape(474*713,3)
+[n.fit(X) for n in clusters]
+[n.fit(image_float_2d) for n in clusters]
+[n.cluster_centers_ for n in clusters]
+import math
+def PSNR(X_real, X_pred):
+    return 20*math.log10(1)-10*math.log10(np.sum(np.power(np.subtract(X_real,X_pred),2)))
+
+unprocessed = []
+for j in range(5, 20):
+  for i in range(len(cluster[j].labels_)):
+  unprocessed.append(est[j].cluster_centers_[est.labels_[i]])
+unprocessed = []
+for j in range(5, 20):
+  for i in range(len(cluster[j].labels_)):
+     unprocessed.append(est[j].cluster_centers_[est.labels_[i]])
+     
+unprocessed = []
+for j in range(5, 20):
+  for i in range(len(clusters[j].labels_)):
+     unprocessed.append(clusters[j].cluster_centers_[est.labels_[i]])
+ 
+unprocessed = []
+for j in range(5, 20):
+  for i in range(len(clusters[j].labels_)):
+     unprocessed.append(clusters[j].cluster_centers_[clusters[j].labels_[i]])
+ 
+unprocessed = []
+for j in range(15):
+  for i in range(len(clusters[j].labels_)):
+     unprocessed.append(clusters[j].cluster_centers_[clusters[j].labels_[i]])
+ 
+5069430./337962
+import numpy as np
+processed = np.array(unpocessed).reshape(337962,15,3)
+processed = np.array(unprocessed).reshape(337962,15,3)
+processed[:][0][:]
+q = processed[:][0][:]
+q = processed[:][:][:]
+q = processed[1][:][:]
+q = processed[:][:][0]
+q = processed[][][0]
+q = processed[:][:]
+q = processed[:][1]
+q = processed[:][:0]
+q = processed[0:337962][1]
+q = processed
+q = processed[1]
+q = processed[,1]
+q = processed[:,1]
+q = processed[:,2]
+for i in range(15):
+    PSNR(image_float_2d, processed[:,i])
+
+psnrs_center = []
+for i in range(15):
+    psnrs_center.append(PSNR(image_float_2d, processed[:,i]))
+    
+import pyplot
+import pylab
+for i in range(15):
+    pylab.imshow(processed[:,i].reshape(474,713,3))
+    
+pylab.imshow(processed[:,1].reshape(474,713,3))
+unprocessed = []
+for j in range(15):
+  for i in range(len(clusters[j].labels_)):
+     unprocessed[j].append(clusters[j].cluster_centers_[clusters[j].labels_[i]])
+
+uprocessed = [][]
+x = [[] for i in range(3)]
+x[0][0] = 1
+x[0] = 1
+unprocessed = [[] for i in range(15)]
+for j in range(15):
+  temp = []
+  for i in range(len(clusters[j].labels_)):
+    temp.append(clusters[j].cluster_centers_[clusters[j].labels_[i]])
+    unprocessed[j] = list(temp)
+
+
+##---(Tue Jun 28 11:40:13 2016)---
+skimage.io.imread('data/raw/parrots.jpg')
+image = skimage.io.imread('data/raw/parrots.jpg')
+image_float = skimage.img_as_float
+
+import skimage.io
+skimage.io.imread('data/raw/parrots.jpg')
+image = skimage.io.imread('data/raw/parrots.jpg')
+image_float = skimage.img_as_float
+
+image_float = skimage.img_as_float(image)
+from sklearn.cluster import KMeans
+[KMeans(random_state=241, init='k-means++', n_clusters=n) for n in range(5,20)]
+clusters = [KMeans(random_state=241, init='k-means++', n_clusters=n) for n in range(5,20)]
+image_float_2d = image_float.reshape(474*713,3)
+[n.fit(image_float_2d) for n in clusters]
+
+unprocessed = [[] for i in range(15)]
+for j in range(15):
+  temp = []
+  for i in range(len(clusters[j].labels_)):
+    temp.append(clusters[j].cluster_centers_[clusters[j].labels_[i]])
+    unprocessed[j] = list(temp)
+
+##---(Tue Jun 28 13:12:53 2016)---
+pwd
+import skimage.io
+skimage.io.imread('data/raw/parrots.jpg')
+image = skimage.io.imread('data/raw/parrots.jpg')
+image_float = skimage.img_as_float
+
+image_float = skimage.img_as_float(image)
+from sklearn.cluster import KMeans
+[KMeans(random_state=241, init='k-means++', n_clusters=n) for n in range(5,20)]
+clusters = [KMeans(random_state=241, init='k-means++', n_clusters=n) for n in range(5,20)]
+image_float_2d = image_float.reshape(474*713,3)
+[n.fit(image_float_2d) for n in clusters]
+
+unprocessed = [[] for i in range(15)]
+for j in range(15):
+  temp = []
+  print ("iteracja " + i)
+  for i in range(len(clusters[j].labels_)):
+    temp.append(clusters[j].cluster_centers_[clusters[j].labels_[i]])
+    unprocessed[j] = temp[:]
+    
+unprocessed = [[] for i in range(15)]
+for j in range(15):
+  temp = []
+  println (i)
+  for i in range(len(clusters[j].labels_)):
+    temp.append(clusters[j].cluster_centers_[clusters[j].labels_[i]])
+    unprocessed[j] = temp[:]
+    
+unprocessed = [[] for i in range(15)]
+for j in range(15):
+  temp = []
+  print (i)
+  for i in range(len(clusters[j].labels_)):
+    temp.append(clusters[j].cluster_centers_[clusters[j].labels_[i]])
+    unprocessed[j] = temp[:]
+    
+unprocessed = [[] for i in range(15)]
+unprocessed = [[] for i in range(15)]
+for j in range(15):
+  temp = []
+  print (i)
+  for i in range(len(clusters[j].labels_)):
+    temp.append(clusters[j].cluster_centers_[clusters[j].labels_[i]])
+    unprocessed[j] = temp[:]
+    
+clusters[1].cluster_centers_[clusters[1].labels_[2]]
+for i in range(len(clusters[0].labels_)):
+   unprocessed.append(clusters[0].cluster_centers_[clusters[0].labels_[i]])
+   
+for i in range(len(clusters[0].labels_)):
+   unprocessed.append(clusters[0].cluster_centers_[clusters[0].labels_[i]])
+   
+unprocessed = [[] for i in range(15)]   
+unprocessed =[]
+for i in range(len(clusters[0].labels_)):
+   unprocessed.append(clusters[0].cluster_centers_[clusters[0].labels_[i]])
+   
+unprocessed =[]
+for j in range(15):
+    for i in range(len(clusters[0].labels_)):
+       unprocessed.append(clusters[0].cluster_centers_[clusters[0].labels_[i]])
+       
+unprocessed = [[] for i in range(15)]
+for j in range(15):
+    for i in range(len(clusters[j].labels_)):
+       unprocessed[j] = clusters[j].cluster_centers_[clusters[j].labels_[i]]
+       
+clusters[1].labels_
+size(clusters[1].labels_)
+clusters[1].labels_.size
+ unprocessed = [[] for i in range(15)]
+for j in range(15):
+    temp = []
+    for i in range(len(clusters[j].labels_)):
+       temp.append(clusters[j].cluster_centers_[clusters[j].labels_[i]])
+    unprocessed[j] = list(temp)
+   
+processed = np.array(unprocessed)
+import numpy as np
+processed = np.array(unprocessed)
+processed[i][:][:]
+processed[0][:][:]
+size(processed[0][:][:])
+q = (processed[0][:][:])
+for i in range(15):
+    PSNR(image_float_2d, processed[0][:][:])
+    
+import math
+def PSNR(X_real, X_pred):
+    return 20*math.log10(1)-10*math.log10(np.sum(np.power(np.subtract(X_real,X_pred),2)))
+
+for i in range(15):
+    PSNR(image_float_2d, processed[0][:][:])
+    
+psnrs=[]
+for i in range(15):
+    psnrs.append(PSNR(image_float_2d, processed[0][:][:]))
+    
+import pylab
+pylab.imshow(processed[0][:][:].reshape(474,713,3))
+pylab.imshow(processed[15][:][:].reshape(474,713,3))
+pylab.imshow(processed[14][:][:].reshape(474,713,3))
+psnrs=[]
+for i in range(15):
+    psnrs.append(PSNR(image_float_2d, processed[i][:][:]))
+    
+psnrs=[]
+for i in range(15):
+    psnrs.append(PSNR(image_float_2d, image_float_2d))
+    
+psnrs=[]
+for i in range(15):
+    psnrs.append(PSNR(image_float_2d*255, processed[i][:][:]*255))    
+    
+psnrs=[]
+for i in range(15):
+    psnrs.append(PSNR(image_float_2d, processed[i][:][:]))
+    
+ships_base = skimage.io.imread('data/raw/PSNR-example-base.png')
+ships_base = skimage.img_as_float(ships_base)
+ships_base = ships_base.reshape(1521*2028, 4)
+ships_90 = skimage.io.imread('data/raw/PSNR-example-comp-90.jpg')
+ships_90 = skimage.img_as_float(ships_90)
+ships_90 = ships_90.reshape(1521*2028, 4)
+ships_90 = ships_90.reshape(1521*2028, 3)
+ships_base[:][:2]
+w = ships_base[:][:2]
+w = ships_base[:][:,2]
+w = ships_base[:][:,3]
+w = ships_base[:][:,1]
+w = ships_base[:][:,0:2]
+w = ships_base[:][:,0:3]
+PSNR(w, ship_90)
+PSNR(w, ships_90)
+w.shape
+w.shape[0]
+def PSNR(X_true, X_real, max_value):
+  import math
+  return 20*math.log10(max_value)-10*math.log10(np.sum(np.power(np.subtract(X_real,X_pred),2))/X_real.shape[0])
+
+PSNR(w, ships_90)
+PSNR(w, ships_90, 1)
+def PSNR(X_true, X_real, max_value):
+  import math
+  return 20*math.log10(max_value)-10*math.log10(np.sum(np.power(np.subtract(X_true,X_real),2))/X_real.shape[0])
+
+PSNR(w, ships_90, 1)
+PSNR([1, 2, 3], [1, 2, 4], 255)
+psnrs=[]
+for i in range(15):
+    psnrs.append(PSNR(image_float_2d, processed[i][:][:], 1.))
+    
+clusters
+[n.cluster_centers_ for n in clusters]
+labels = [[] for n in range(15)]
+[n.labels_ for n in clusters]
+labels_brute = [n.labels_ for n in clusters]
+list_of_pixels = [[] for n in range(w)] for w in range(5, 20)]
+    for j in range(len(labels_brute[0])):
+    labels_brute[0][j]
+list_of_pixels = [[[] for n in range(w)] for w in range(5, 20)]
+    for j in range(len(labels_brute[0])):
+    labels_brute[0][j]
+list_of_pixels = [[[] for n in range(w)] for w in range(5, 20)]
+for i in range (15):
+    temp = [[] for n in i+5]
+    for j in range(len(labels_brute[i])):
+        temp[i].append(j)
+    list_of_pixels[i] = temp[:]
+    
+for i in range (15):
+    temp = [[] for n in range(i+5)]
+    for j in range(len(labels_brute[i])):
+        temp[i].append(j)
+    list_of_pixels[i] = temp[:]
+    
+list_of_pixels = [[[] for n in range(w)] for w in range(5, 20)]
+list_of_pixels = [[[] for n in range(w)] for w in range(5, 20)]
+for i in range (15):
+   temp = [[] for n in range(i+5)]
+   for j in range(len(labels_brute[i])):
+       temp[labels_brute[i]].append(j)
+   list_of_pixels[i] = temp[:]
+   
+list_of_pixels = [[[] for n in range(w)] for w in range(5, 20)]
+for i in range (15):
+   temp = [[] for n in range(i+5)]
+   for j in range(len(labels_brute[i])):
+       temp[labels_brute[i][j]].append(j)
+   list_of_pixels[i] = temp[:]
+   
+image_float_2d[list_of_pixels[0][0]]
+import numpy as np
+np. array([[1, 2, 3, 4],[5, 6, 7, 8]])
+te = np. array([[1, 2, 3, 4],[5, 6, 7, 8]])
+te[[1 2]]
+te[[1,2]]
+te[[1,1]]
+np.mean(image_float_2d[list_of_pixels[0][0]], axis='Y')
+np.mean(image_float_2d[list_of_pixels[0][0]], axis=1)
+np.mean(image_float_2d[list_of_pixels[0][0]], axis=0)
+np.median(image_float_2d[list_of_pixels[0][0]], axis=0)
+list_of_mean_colors = [[] for n in range(15)]
+list_of_median_colors = [[] for n in range(15)]
+for i in range(15):
+    for j in range(i+5):
+        list_of_median_colors[i] = np.median(image_float_2d[list_of_pixels[i][j]], axis=0)
+        list_of_mean_colors[i] = np.mean(image_float_2d[list_of_pixels[i][j]], axis=0)
+        
+list_of_mean_colors = [[] for n in range(15)]
+list_of_median_colors = [[] for n in range(15)]
+for i in range(15):
+    for j in range(i+5):
+        list_of_median_colors[i].append(np.median(image_float_2d[list_of_pixels[i][j]], axis=0))
+        list_of_mean_colors[i].append(np.mean(image_float_2d[list_of_pixels[i][j]], axis=0))
+        
+np.save('list_of_mean_colors', list_of_mean_colors)
+ls
+np.save('list_of_median_colors', list_of_median_colors)
+np.save('list_of_pixels', list_of_pixels)
+pwd
